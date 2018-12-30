@@ -42,3 +42,8 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+/build
+/server/build
+/.gradle
+/client/node_modules

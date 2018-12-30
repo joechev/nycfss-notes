@@ -1,6 +1,6 @@
 buildscript {
 	ext {
-		springBootVersion = '2.1.0.M1'
+		springBootVersion = '2.1.0.RELEASE'
 	}
 	repositories {
 		mavenCentral()
@@ -44,57 +44,18 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-rest')
 	compile('org.springframework.boot:spring-boot-starter-hateoas')
     compile('org.springframework.cloud:spring-cloud-starter-oauth2:1.2.3.RELEASE')
-    compile('org.projectlombok:lombok')
+    compile('org.projectlombok:lombok:1.18.4')
     // DB
 	runtime('com.h2database:h2')
+    runtime('org.flywaydb:flyway-core')
     // Test
 	testCompile('org.springframework.boot:spring-boot-starter-test')
     testCompile("org.springframework.security:spring-security-test")
-    testCompile('org.codehaus.groovy:groovy')
     testCompile('org.codehaus.groovy:groovy-all')
 }
 
 dependencyManagement {
     imports {
         mavenBom "org.springframework.cloud:spring-cloud-starter-parent:Camden.SR2"
-    }
-}
-
-def webappDir = "$projectDir"
-sourceSets {
-    main {
-        resources {
-            srcDirs = ["$projectDir/dist", "$projectDir/src/main/resources"]
-        }
-    }
-}
-
-processResources {
-    dependsOn "buildAngular"
-}
-
-task buildAngular(type:Exec) {
-    // installAngular should be run prior to this task
-    dependsOn "installAngular"
-    workingDir "$webappDir"
-    inputs.dir "$webappDir"
-    // Add task to the standard build group
-    group = BasePlugin.BUILD_GROUP
-    // ng doesn't exist as a file in windows -> ng.cmd
-    if (System.getProperty("os.name").toUpperCase().contains("WINDOWS")){
-        commandLine "ng.cmd", "build"
-    } else {
-        commandLine "ng", "build"
-    }
-}
-
-task installAngular(type:Exec) {
-    workingDir "$webappDir"
-    inputs.dir "$webappDir"
-    group = BasePlugin.BUILD_GROUP
-    if (System.getProperty("os.name").toUpperCase().contains("WINDOWS")){
-        commandLine "npm.cmd", "install"
-    } else {
-        commandLine "npm", "install"
     }
 }

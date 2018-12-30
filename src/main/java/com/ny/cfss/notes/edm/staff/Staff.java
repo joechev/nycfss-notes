@@ -12,8 +12,12 @@ import java.util.UUID;
 @Entity
 @Table(name = "staff")
 @Data
-@EqualsAndHashCode(callSuper = true)
+@EqualsAndHashCode(callSuper = true, onlyExplicitlyIncluded = true)
 public class Staff extends AbstractDomainEntity {
+
+    private String firstName;
+    private String middleName;
+    private String lastName;
 
     @Column(unique = true, nullable = false)
     private String email;

@@ -1,6 +1,7 @@
 package com.ny.cfss.notes.edm;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;
@@ -8,19 +9,15 @@ import java.util.UUID;
 
 @MappedSuperclass
 @Data
+@EqualsAndHashCode(onlyExplicitlyIncluded = true)
 public abstract class AbstractDomainEntity {
 
     @Id
-    @Column(updatable = false, unique = true, nullable = false, columnDefinition = "BINARY(16)")
+    @EqualsAndHashCode.Include
     private UUID id;
 
-    @Column(nullable = false, updatable = false, columnDefinition = "DATETIME(3) NOT NULL")
     private LocalDateTime creTimest;
-
-    @Column(columnDefinition = "DATETIME(3)")
     private LocalDateTime modTimest;
-
-    @Column(nullable = false)
     private Boolean active;
 
     @PrePersist

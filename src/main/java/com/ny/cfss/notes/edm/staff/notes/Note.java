@@ -1,11 +1,9 @@
 package com.ny.cfss.notes.edm.staff.notes;
 
 import com.ny.cfss.notes.edm.AbstractDomainEntity;
-import com.ny.cfss.notes.edm.client.goal.Goal;
-import com.ny.cfss.notes.edm.refdata.activity.Activity;
-import com.ny.cfss.notes.edm.refdata.assistance.AssistanceType;
-import com.ny.cfss.notes.edm.refdata.location.Location;
-import com.ny.cfss.notes.edm.refdata.progress.ProgressIndicator;
+import com.ny.cfss.notes.edm.individual.Individual;
+import com.ny.cfss.notes.edm.individual.goal.Goal;
+import com.ny.cfss.notes.edm.programs.Program;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -18,12 +16,20 @@ import java.util.Set;
 @Entity
 @Table(name = "notes")
 @Data
-@EqualsAndHashCode(callSuper = true)
+@EqualsAndHashCode(callSuper = true, onlyExplicitlyIncluded = true)
 public class Note extends AbstractDomainEntity {
 
     @ManyToOne
     @JoinColumn(name = "summaryId")
     private WeeklySummary weeklySummary;
+
+    @ManyToOne
+    @JoinColumn(name = "individualId")
+    private Individual individual;
+
+    @ManyToOne
+    @JoinColumn(name = "programId")
+    private Program program;
 
     @ManyToMany
     @JoinTable(name = "targetedGoals")
@@ -38,23 +44,16 @@ public class Note extends AbstractDomainEntity {
     @Column(columnDefinition = "time")
     private LocalTime endTime;
 
-    @OneToOne
-    @JoinColumn(name = "activityId")
-    private Activity activity;
-    private String activityNote;
+    @OneToMany(mappedBy = "note")
+    private Set<RefNote> activities = new HashSet<>();
 
-    @OneToOne
-    @JoinColumn(name = "progressIndicatorId")
-    private ProgressIndicator progressIndicator;
-    private String progressIndicatrorNote;
+    @OneToMany(mappedBy = "note")
+    private Set<RefNote> progressIndicators = new HashSet<>();
 
-    @ManyToMany
-    @JoinTable(name = "serviceAssistance")
-    private Set<AssistanceType> assistanceTypes = new HashSet<>();
+    @OneToMany(mappedBy = "note")
+    private Set<RefNote> assistanceTypes = new HashSet<>();
 
-    @OneToOne
-    @JoinColumn(name = "locationId")
-    private Location location;
-    private String locationNote;
+    @OneToMany(mappedBy = "note")
+    private Set<RefNote> locations = new HashSet<>();
 
 }

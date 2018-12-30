@@ -1,0 +1,22 @@
+<div id="card">
+    <div class="container">
+        <table id="staff-table" class="cell-border table table-hover dt-responsive table-striped" cellspacing="0" style="width:100%;">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Middle Name</th>
+                    <th>Last Name</th>
+                    <th>E-mail</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let staffMember of staff">
+                    <td id="firstName">{{staffMember.firstName}}</td>
+                    <td id="middleName">{{staffMember.middleName}}</td>
+                    <td id="lastName">{{staffMember.lastName}}</td>
+                    <td id="email">{{staffMember.email}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

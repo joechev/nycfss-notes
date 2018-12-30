@@ -2,6 +2,7 @@ package com.ny.cfss.notes.security;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Configurable;
+import org.springframework.boot.autoconfigure.security.oauth2.client.EnableOAuth2Sso;
 import org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties;
 import org.springframework.boot.autoconfigure.security.oauth2.resource.UserInfoTokenServices;
 import org.springframework.context.annotation.Bean;
@@ -15,8 +16,6 @@ import org.springframework.security.oauth2.client.OAuth2ClientContext;
 import org.springframework.security.oauth2.client.OAuth2RestTemplate;
 import org.springframework.security.oauth2.client.filter.OAuth2ClientAuthenticationProcessingFilter;
 import org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails;
-import org.springframework.security.web.authentication.www.BasicAuthenticationFilter;
-import org.springframework.security.web.csrf.CookieCsrfTokenRepository;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
@@ -25,8 +24,9 @@ import java.util.Arrays;
 import java.util.Collections;
 
 @Configurable
+@EnableOAuth2Sso
 @EnableWebSecurity
-@Profile("!api-test")
+@Profile({"dev", "prod"})
 @RequiredArgsConstructor
 public class OAuthSecurityConfig extends WebSecurityConfigurerAdapter {
 
@@ -48,18 +48,19 @@ public class OAuthSecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
-                .authorizeRequests()
-                .antMatchers("/api/**").hasAuthority("ROLE_USER")
-                .anyRequest().permitAll()
-                .and()
-                .logout()
-                .logoutSuccessUrl("/")
-                .permitAll()
-                .and()
-                .addFilterAt(filter(), BasicAuthenticationFilter.class)
-                .cors()
-                .and()
-                .csrf().csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse());
+                .authorizeRequests().anyRequest().permitAll()
+                .and().csrf().disable();
+//                .antMatchers("/api/**").hasAuthority("ROLE_USER")
+//                .anyRequest().permitAll()
+//                .and()
+//                .logout()
+//                .logoutSuccessUrl("/")
+//                .permitAll()
+//                .and()
+//                .addFilterAt(filter(), BasicAuthenticationFilter.class)
+//                .cors()
+//                .and()
+//                .csrf().csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse());
     }
 
     @Bean
