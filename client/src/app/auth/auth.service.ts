@@ -1,7 +1,6 @@
 import { Injectable } from '@angular/core';
-import { StaffService } from "../shared/staff/staff.service";
 import {Observable, of} from "rxjs";
-import {catchError, map} from "rxjs/operators";
+import {StaffService} from "../staff/service/staff.service";
 
 @Injectable({
   providedIn: 'root'

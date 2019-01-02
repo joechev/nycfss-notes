@@ -1,0 +1,44 @@
+# Spring Boot configuration
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL57InnoDBDialect
+    hibernate:
+      naming-strategy: org.hibernate.cfg.EJB3NamingStrategy
+      use-new-id-generator-mappings: false
+      naming:
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+  profiles:
+    active: google
+  data:
+    rest:
+      basePath: /api
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/nycfss?useSSL=false&allowPublicKeyRetrieval=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+# Spring Security configuration
+security:
+  oauth2:
+    client:
+      clientId: 866999758228-53biifk2ptjia4luc3km8rtb9g1phb5o.apps.googleusercontent.com
+      clientSecret: EZDVhdH2AzXgQZnSM6dtR7VZ
+      accessTokenUri: https://www.googleapis.com/oauth2/v4/token
+      userAuthorizationUri: https://accounts.google.com/o/oauth2/v2/auth
+      clientAuthenticationScheme: form
+      scope:
+        - openid
+        - email
+        - profile
+    resource:
+      userInfoUri: https://www.googleapis.com/oauth2/v3/userinfo
+      preferTokenInfo: true
+# Server configuration
+server:
+  port: 8181
+
+logging:
+  level:
+    org.springframework.security: DEBUG

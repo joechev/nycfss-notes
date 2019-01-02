@@ -1,16 +1,22 @@
-import {Component, OnInit, ViewEncapsulation} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
     selector: 'app-nav-bar',
     templateUrl: './nav-bar.component.html',
-    styleUrls: ['./nav-bar.component.css'],
-    encapsulation: ViewEncapsulation.Emulated
+    styleUrls: ['./nav-bar.component.css']
 })
 export class NavBarComponent implements OnInit {
 
-  constructor() { }
+  user: string = 'User';
+
+  constructor(private router: Router) { }
 
   ngOnInit() {
+  }
+
+  logout() {
+
   }
 
 }

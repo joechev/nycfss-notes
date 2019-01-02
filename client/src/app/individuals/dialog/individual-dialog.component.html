@@ -1,0 +1,23 @@
+<h1 mat-dialog-title>Create/Update Individual</h1>
+<mat-dialog-content>
+    <mat-form-field [floatLabel]="auto">
+        <mat-label>First Name</mat-label>
+        <input matInput placeholder="First Name" required value="{{data.firstName}}">
+    </mat-form-field>
+
+    <mat-form-field [floatLabel]="auto">
+        <mat-label>Middle Name</mat-label>
+        <input matInput placeholder="Middle Name">
+    </mat-form-field>
+
+    <mat-form-field [floatLabel]="auto">
+        <mat-label>Last Name</mat-label>
+        <input matInput placeholder="Last Name" required>
+    </mat-form-field>
+</mat-dialog-content>
+<div class="button-row">
+    <mat-dialog-actions align="end">
+        <button mat-flat-button mat-dialog-close>Cancel</button>
+        <button mat-raised-button color="primary" [mat-dialog-close]="true" cdkFocusInitial>Save</button>
+    </mat-dialog-actions>
+</div>
