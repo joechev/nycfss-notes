@@ -4,13 +4,18 @@
         <mat-spinner></mat-spinner>
     </div>
     <div class="row">
-        <mat-form-field [floatLabel]="auto">
-            <input matInput [matDatepicker]="weekOfPicker" placeholder="mm/dd/yyyy" [value]="date.value" disabled>
-            <mat-datepicker-toggle matSuffix [for]="weekOfPicker"></mat-datepicker-toggle>
-            <mat-datepicker #weekOfPicker disabled="false"></mat-datepicker>
-        </mat-form-field>
+        <div class="col">
+            <mat-form-field [floatLabel]="auto">
+                <input matInput [matDatepicker]="weekOfPicker" placeholder="Week of (mm/dd/yyyy)" [value]="date.value" (dateChange)="dateChanged($event)" disabled>
+                <mat-datepicker-toggle matSuffix [for]="weekOfPicker"></mat-datepicker-toggle>
+                <mat-datepicker #weekOfPicker disabled="false"></mat-datepicker>
+            </mat-form-field>
+        </div>
+        <div class="col">
+            <button mat-raised-button (click)="openCreateDialog()">Add Note Entry</button>
+        </div>
     </div>
-    <mat-tab-group animationDuration="500ms">
+    <mat-tab-group [selectedIndex]="selectedTab" animationDuration="500ms">
         <mat-tab *ngFor="let day of days; let i = index" label="{{day}}">
             <div class="example-container mat-elevation-z8">
                 <table mat-table [dataSource]="dataSources[i]" matSort>

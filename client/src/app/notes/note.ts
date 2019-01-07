@@ -16,4 +16,10 @@ export class Note extends DomainEntity {
     return `${this.individual.lastName}, ${this.individual.firstName}`;
   }
 
+  static for(serviceDate: Date): Note {
+    let note = new Note();
+    note.serviceDate = serviceDate;
+    return note;
+  }
+
 }

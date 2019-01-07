@@ -1,0 +1,13 @@
+.time-container {
+    padding: 1rem;
+}
+
+.time-wrapper {
+    margin-bottom: 3rem;
+}
+
+.time-input-wrapper {
+    display: block;
+    width: 200px;
+    margin-bottom: 1.5rem;
+}

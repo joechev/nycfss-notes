@@ -3,7 +3,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import {
     MatDialogModule, MatTableModule, MatPaginatorModule, MatDatepickerModule, MatNativeDateModule,
-    MatSortModule, MatProgressSpinnerModule, MatFormFieldModule, MatInputModule, MatTabsModule } from '@angular/material'
+    MatSortModule, MatProgressSpinnerModule, MatFormFieldModule, MatInputModule, MatTabsModule,
+    MatSelectModule } from '@angular/material'
 import { HttpClientModule } from "@angular/common/http";
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -20,6 +21,7 @@ import { NotesDialogComponent } from './notes/dialog/notes-dialog.component';
 import {StaffComponent} from "./staff/component/staff.component";
 import {StaffDialogComponent} from "./staff/dialog/staff-dialog.component";
 import {WINDOW_PROVIDERS} from "./shared/window-providers";
+import { OwlDateTimeModule, OwlNativeDateTimeModule } from 'ng-pick-datetime';
 
 @NgModule({
   declarations: [
@@ -51,6 +53,8 @@ import {WINDOW_PROVIDERS} from "./shared/window-providers";
     MatSortModule,
     MatTableModule,
     MatTabsModule,
+    OwlDateTimeModule,
+    OwlNativeDateTimeModule,
     BrowserAnimationsModule
   ],
   providers: [WINDOW_PROVIDERS],

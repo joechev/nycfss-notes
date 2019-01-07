@@ -17,7 +17,7 @@ class ContextLoadsTest extends NotesApplicationTests {
     void parseJson() {
         def resource = new ClassPathResource('users.json')
         def vals = new ObjectMapper().readValue(resource.inputStream, Wrapper.class)
-        def file = new File("C:\\Users\\Joe\\users.json")
+        def file = new File("/home/jchiavaroli/users.sql")
         if(file.exists()) {
             file.delete()
         }
@@ -26,8 +26,8 @@ class ContextLoadsTest extends NotesApplicationTests {
     }
 
     static String buildLine(User u) {
-        def ins = "insert into staff (id, firstName, lastName, email, pictureUrl) "
-        def vals = "values ('${id(u)}', '${u.name.givenName}', '${u.name.familyName}', '${email(u)}', '${pic(u)}');"
+        def ins = "insert into staff (id, firstName, lastName, email, personalEmail, pictureUrl) "
+        def vals = "values ('${id(u)}', '${u.name.givenName}', '${u.name.familyName}', '${u.primaryEmail}', '${email(u)}', '${pic(u)}');"
         "$ins$vals".toString()
     }
 
@@ -40,7 +40,7 @@ class ContextLoadsTest extends NotesApplicationTests {
     }
 
     static String email(User u) {
-        u.emails[0].address
+        u.emails.findResult { it.primary == null || !it.primary ? it.address : null }
     }
 
     static String pic(User u) {

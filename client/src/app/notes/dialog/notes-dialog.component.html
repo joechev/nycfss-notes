@@ -1,23 +1,26 @@
-<h1 mat-dialog-title>Add Notes</h1>
-<mat-dialog-content>
-    <mat-form-field [floatLabel]="auto">
-        <mat-label>First Name</mat-label>
-        <input matInput placeholder="First Name" required value="{{data.firstName}}">
-    </mat-form-field>
+<div class="time-container">
+    <h1 mat-dialog-title>Add Note Entry</h1>
+    <mat-dialog-content>
+        <mat-form-field [floatLabel]="auto">
+            <input matInput [matDatepicker]="serviceDatePicker" placeholder="Service Date" required
+                   [value]="date.value">
+            <mat-datepicker-toggle matSuffix [for]="serviceDatePicker"></mat-datepicker-toggle>
+            <mat-datepicker #serviceDatePicker></mat-datepicker>
+        </mat-form-field>
+        <div class="time-wrapper">
+            <label class="time-input-wrapper">Start Time
+                <input placeholder="Start Time:"
+                       value="startTime.value"
+                       [owlDateTimeTrigger]="startTime" [owlDateTime]="startTime">
+                <owl-date-time [pickerType]="'timer'" #startTime></owl-date-time>
+            </label>
+        </div>
 
-    <mat-form-field [floatLabel]="auto">
-        <mat-label>Middle Name</mat-label>
-        <input matInput placeholder="Middle Name">
-    </mat-form-field>
-
-    <mat-form-field [floatLabel]="auto">
-        <mat-label>Last Name</mat-label>
-        <input matInput placeholder="Last Name" required>
-    </mat-form-field>
-</mat-dialog-content>
-<div class="button-row">
-    <mat-dialog-actions align="end">
-        <button mat-flat-button mat-dialog-close>Cancel</button>
-        <button mat-raised-button color="primary" [mat-dialog-close]="true" cdkFocusInitial>Save</button>
-    </mat-dialog-actions>
+    </mat-dialog-content>
+    <div class="button-row">
+        <mat-dialog-actions align="end">
+            <button mat-flat-button mat-dialog-close>Cancel</button>
+            <button mat-raised-button color="primary" [mat-dialog-close]="true" cdkFocusInitial>Save</button>
+        </mat-dialog-actions>
+    </div>
 </div>

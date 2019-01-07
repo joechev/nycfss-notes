@@ -47,3 +47,6 @@ Thumbs.db
 /server/build
 /.gradle
 /client/node_modules
+
+.idea/
+server/src/main/resources/static
