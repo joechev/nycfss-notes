@@ -12,6 +12,12 @@
                 <td mat-cell *matCellDef="let stf"> {{stf.id}} </td>
             </ng-container>
 
+            <!-- pictureUrl Column -->
+            <ng-container matColumnDef="pictureUrl">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header> Icon </th>
+                <td mat-cell *matCellDef="let stf"><img class="table-icon" src="{{stf.pictureUrl}}"></td>
+            </ng-container>
+
             <!-- firstName Column -->
             <ng-container matColumnDef="firstName">
                 <th mat-header-cell *matHeaderCellDef mat-sort-header> First Name </th>

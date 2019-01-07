@@ -1,10 +1,10 @@
 package com.ny.cfss.notes.edm.staff.notes;
 
 import com.ny.cfss.notes.edm.AbstractDomainEntity;
-import com.ny.cfss.notes.edm.individual.goal.Goal;
 import com.ny.cfss.notes.edm.staff.Staff;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import org.springframework.data.rest.core.annotation.RestResource;
 
 import javax.persistence.*;
 import java.time.DayOfWeek;
@@ -26,11 +26,11 @@ public class WeeklySummary extends AbstractDomainEntity {
 
     @ManyToOne
     @JoinColumn(name = "staffId")
+    @RestResource(path = "staff", rel = "staff")
     private Staff staff;
 
-    @ManyToMany
-    @JoinTable(name = "weeklyGoals")
-    private Set<Goal> goals = new HashSet<>();
+    @OneToMany(mappedBy = "weeklySummary")
+    private Set<Note> notes = new HashSet<>();
 
     @Override
     public void prePersist() {

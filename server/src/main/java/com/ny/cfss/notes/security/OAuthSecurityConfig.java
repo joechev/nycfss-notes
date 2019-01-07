@@ -2,11 +2,10 @@ package com.ny.cfss.notes.security;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Configurable;
-import org.springframework.boot.autoconfigure.security.oauth2.client.EnableOAuth2Sso;
 import org.springframework.boot.autoconfigure.security.oauth2.resource.ResourceServerProperties;
 import org.springframework.boot.autoconfigure.security.oauth2.resource.UserInfoTokenServices;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Profile;
+import org.springframework.core.annotation.Order;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
@@ -16,24 +15,19 @@ import org.springframework.security.oauth2.client.OAuth2ClientContext;
 import org.springframework.security.oauth2.client.OAuth2RestTemplate;
 import org.springframework.security.oauth2.client.filter.OAuth2ClientAuthenticationProcessingFilter;
 import org.springframework.security.oauth2.client.token.grant.code.AuthorizationCodeResourceDetails;
-import org.springframework.web.cors.CorsConfiguration;
-import org.springframework.web.cors.CorsConfigurationSource;
-import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
-
-import java.util.Arrays;
-import java.util.Collections;
+import org.springframework.security.web.authentication.www.BasicAuthenticationFilter;
+import org.springframework.security.web.csrf.CookieCsrfTokenRepository;
 
 @Configurable
-@EnableOAuth2Sso
 @EnableWebSecurity
-@Profile({"dev", "prod"})
+@Order(1)
 @RequiredArgsConstructor
+@Profile({"dev", "prod"})
 public class OAuthSecurityConfig extends WebSecurityConfigurerAdapter {
 
     private final OAuth2ClientContext oauth2ClientContext;
     private final AuthorizationCodeResourceDetails authorizationCodeResourceDetails;
     private final ResourceServerProperties resourceServerProperties;
-    private final DomainAuthoritiesExtractor authoritiesExtractor;
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
@@ -45,57 +39,37 @@ public class OAuthSecurityConfig extends WebSecurityConfigurerAdapter {
         super.configure(web);
     }
 
-    @Override
-    protected void configure(HttpSecurity http) throws Exception {
-        http
-                .authorizeRequests().anyRequest().permitAll()
-                .and().csrf().disable();
-//                .antMatchers("/api/**").hasAuthority("ROLE_USER")
-//                .anyRequest().permitAll()
-//                .and()
-//                .logout()
-//                .logoutSuccessUrl("/")
-//                .permitAll()
-//                .and()
-//                .addFilterAt(filter(), BasicAuthenticationFilter.class)
-//                .cors()
-//                .and()
-//                .csrf().csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse());
-    }
-
-    @Bean
-    public UserInfoTokenServices userInfoTokenServices() {
-        final UserInfoTokenServices tokenServices = new UserInfoTokenServices(
-                resourceServerProperties.getUserInfoUri(),
-                resourceServerProperties.getClientId());
-        tokenServices.setAuthoritiesExtractor(authoritiesExtractor);
-        return tokenServices;
-    }
-
-    @Bean
-    public OAuth2ClientAuthenticationProcessingFilter filter() {
-        final OAuth2ClientAuthenticationProcessingFilter oAuth2Filter =
-                new OAuth2ClientAuthenticationProcessingFilter("/google/login");
+    private OAuth2ClientAuthenticationProcessingFilter filter() {
+        OAuth2ClientAuthenticationProcessingFilter oAuth2Filter = new OAuth2ClientAuthenticationProcessingFilter(
+                "/google/login");
 
         final OAuth2RestTemplate oAuth2RestTemplate = new OAuth2RestTemplate(
                 authorizationCodeResourceDetails,
                 oauth2ClientContext);
         oAuth2Filter.setRestTemplate(oAuth2RestTemplate);
-        oAuth2Filter.setTokenServices(userInfoTokenServices());
+
+        oAuth2Filter.setTokenServices(new UserInfoTokenServices(
+                resourceServerProperties.getUserInfoUri(),
+                resourceServerProperties.getClientId()));
 
         return oAuth2Filter;
     }
 
-    @Bean
-    public CorsConfigurationSource corsConfigurationSource() {
-        final CorsConfiguration configuration = new CorsConfiguration();
-        configuration.setAllowedOrigins(Collections.singletonList("*"));
-        configuration.setAllowedMethods(Arrays.asList("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"));
-        configuration.setAllowedHeaders(Arrays.asList("authorization", "content-type", "x-auth-token"));
-        configuration.setExposedHeaders(Collections.singletonList("x-auth-token"));
-        final UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
-        source.registerCorsConfiguration("/**", configuration);
-        return source;
+    @Override
+    protected void configure(HttpSecurity http) throws Exception {
+
+        http
+                .authorizeRequests()
+                .antMatchers("/", "/**.html", "/**.js", "/assets/**", "/*.woff", "/*.woff2", "/*.ttf").permitAll()
+                .anyRequest().fullyAuthenticated()
+                .and()
+                .logout()
+                .logoutSuccessUrl("/")
+                .permitAll()
+                .and()
+                .addFilterAt(filter(), BasicAuthenticationFilter.class)
+                .csrf()
+                .csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse());
     }
 
 }

@@ -14,12 +14,13 @@ public abstract class AbstractDomainEntity {
 
     @Id
     @EqualsAndHashCode.Include
-    private UUID id;
+    private String id;
 
     private LocalDateTime creTimest;
     private LocalDateTime modTimest;
     private Boolean active;
 
+    @PrePersist
     public void prePersist() {
         this.creTimest = LocalDateTime.now();
         this.active = true;
@@ -30,8 +31,8 @@ public abstract class AbstractDomainEntity {
         this.modTimest = LocalDateTime.now();
     }
 
-    protected UUID generateUUID() {
-        return UUID.randomUUID();
+    protected String generateUUID() {
+        return UUID.randomUUID().toString();
     }
 
 }

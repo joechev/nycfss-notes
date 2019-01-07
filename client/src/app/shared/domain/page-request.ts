@@ -3,6 +3,8 @@ import {MatPaginator, Sort} from "@angular/material";
 
 export class PageRequest {
 
+  projection: string;
+
   constructor(
     private resource: string,
     private page: string,
@@ -14,10 +16,19 @@ export class PageRequest {
   }
 
   toHttpParams(): HttpParams {
-      return new HttpParams()
+      let toRet = new HttpParams()
           .set('page', this.page)
           .set('size', this.size)
           .set('sort', this.sort);
+      if(this.projection != null) {
+          toRet = toRet.set('projection', this.projection);
+      }
+      return toRet;
+  }
+
+  withProjection(projection: string): PageRequest {
+      this.projection = projection;
+      return this;
   }
 
     static parsePage(dtOptions: any): string {

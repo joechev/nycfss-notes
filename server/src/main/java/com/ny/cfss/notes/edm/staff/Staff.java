@@ -22,9 +22,11 @@ public class Staff extends AbstractDomainEntity {
     @Column(unique = true, nullable = false)
     private String email;
 
+    private String pictureUrl;
+
     @Override
-    protected UUID generateUUID() {
-        return UUID.nameUUIDFromBytes(email.getBytes());
+    protected String generateUUID() {
+        return UUID.nameUUIDFromBytes(email.getBytes()).toString();
     }
 
 }

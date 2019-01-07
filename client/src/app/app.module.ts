@@ -1,7 +1,9 @@
 import { BrowserModule} from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
-import { MatDialogModule, MatTableModule, MatPaginatorModule, MatSortModule, MatProgressSpinnerModule, MatFormFieldModule, MatInputModule } from '@angular/material'
+import {
+    MatDialogModule, MatTableModule, MatPaginatorModule, MatDatepickerModule, MatNativeDateModule,
+    MatSortModule, MatProgressSpinnerModule, MatFormFieldModule, MatInputModule, MatTabsModule } from '@angular/material'
 import { HttpClientModule } from "@angular/common/http";
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -13,8 +15,11 @@ import { NoteFormComponent } from './note-form/note-form.component';
 import { DateSelectorComponent } from './date-selector/date-selector.component';
 import { IndividualComponent } from './individuals/component/individual.component';
 import { IndividualDialogComponent } from './individuals/dialog/individual-dialog.component';
+import { NotesComponent } from './notes/component/notes.component';
+import { NotesDialogComponent } from './notes/dialog/notes-dialog.component';
 import {StaffComponent} from "./staff/component/staff.component";
 import {StaffDialogComponent} from "./staff/dialog/staff-dialog.component";
+import {WINDOW_PROVIDERS} from "./shared/window-providers";
 
 @NgModule({
   declarations: [
@@ -28,23 +33,28 @@ import {StaffDialogComponent} from "./staff/dialog/staff-dialog.component";
     StaffComponent,
     IndividualComponent,
     IndividualDialogComponent,
+    NotesComponent,
+    NotesDialogComponent,
     StaffDialogComponent
   ],
   imports: [
     AppRoutingModule,
     BrowserModule,
     HttpClientModule,
+    MatDatepickerModule,
     MatDialogModule,
-    MatTableModule,
-    MatPaginatorModule,
-    MatSortModule,
-    MatProgressSpinnerModule,
     MatFormFieldModule,
     MatInputModule,
+    MatNativeDateModule,
+    MatPaginatorModule,
+    MatProgressSpinnerModule,
+    MatSortModule,
+    MatTableModule,
+    MatTabsModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [WINDOW_PROVIDERS],
   bootstrap: [AppComponent],
-  entryComponents: [IndividualDialogComponent]
+  entryComponents: [IndividualDialogComponent, NotesDialogComponent, StaffDialogComponent]
 })
 export class AppModule { }

@@ -1,0 +1,3187 @@
+{
+    "users": [
+        {
+            "kind": "admin#directory#user",
+            "id": "108728857593089209824",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/vBjp_ruGf1tAlhGywsydFWfbz_U\"",
+            "primaryEmail": "accountspayable@nycfss.org",
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2019-01-03T17:36:47.000Z",
+            "creationTime": "2018-03-01T22:56:27.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true,
+            "name": {
+                "givenName": "Rose",
+                "familyName": "Blanchard",
+                "fullName": "Rose Blanchard"
+            },
+            "emails": [
+                {
+                    "address": "accountspayable@nycfss.org",
+                    "primary": true
+                }
+            ]
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "117382879143837091317",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/IsWfThkjLyeGaxEx5FNzPj-ZNx0\"",
+            "primaryEmail": "acuadrado@nycfss.org",
+            "name": {
+                "givenName": "Alexander",
+                "familyName": "Cuadrado",
+                "fullName": "Alexander Cuadrado"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-11-01T19:27:51.000Z",
+            "creationTime": "2018-10-15T15:56:20.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "bcalex183@gmail.com",
+                    "type": "work"
+                },
+                {
+                    "address": "acuadrado@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "109416152287344776900",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/qJkKnv7tBmadYoz2A7Ueil_oqws\"",
+            "primaryEmail": "aferreira@nycfss.org",
+            "name": {
+                "givenName": "Alexander",
+                "familyName": "Ferreira",
+                "fullName": "Alexander Ferreira"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-07-27T15:26:17.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": true,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "aferreira@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "110382629036738569027",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/bcCzLRu6pC2gv3NRhwJUseDCXds\"",
+            "primaryEmail": "agarcia@nycfss.org",
+            "name": {
+                "givenName": "Annette ",
+                "familyName": "Garcia",
+                "fullName": "Annette Garcia"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-11-02T22:29:15.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "annettegarcia07@gmail.com",
+                    "type": "work"
+                },
+                {
+                    "address": "agarcia@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "116473331630498168911",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/ffLGZd4pHtdZqVTBTJ1klfEj9xg\"",
+            "primaryEmail": "ajohnson@nycfss.org",
+            "name": {
+                "givenName": "Anthony",
+                "familyName": "Johnson",
+                "fullName": "Anthony Johnson"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2019-01-04T15:57:51.000Z",
+            "creationTime": "2017-11-13T18:15:45.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "ajohnson@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true,
+            "thumbnailPhotoUrl": "https://plus.google.com/_/focus/photos/private/AIbEiAIAAABECM-As7jq-sHO5AEiC3ZjYXJkX3Bob3RvKihkODYyNTY3MDUwYmQxYmYzNGJhZjY1ZjMzNDkyYTU4MTM5NTViOTU5MAHyP3TJpoHB7fcgU87G_hWKyzAdBA",
+            "thumbnailPhotoEtag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/pFg_eVY7hfH5aGuScXv5PXT7Y4o\""
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "107299541136334964209",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/UYxprUtRaK5_mEKCPelwYWPJQko\"",
+            "primaryEmail": "aperezrodriguez@nycfss.org",
+            "name": {
+                "givenName": "Arelis",
+                "familyName": "Perez Rodriguez",
+                "fullName": "Arelis Perez Rodriguez"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-10-15T15:58:47.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "Arelis67@gmail.com",
+                    "type": "work"
+                },
+                {
+                    "address": "aperezrodriguez@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "109264136243991554344",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/f-RqZfUGUZX9Rh4gNmOTVxbs558\"",
+            "primaryEmail": "arodriguez@nycfss.org",
+            "name": {
+                "givenName": "Aida",
+                "familyName": "Rodriguez",
+                "fullName": "Aida Rodriguez"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-12-31T20:33:38.000Z",
+            "creationTime": "2015-03-06T19:59:48.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "arodriguez@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "105542666224830629434",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/_Zu5X6S-b-8oBlRVEuA23BG2k4s\"",
+            "primaryEmail": "avalverde@nycfss.org",
+            "name": {
+                "givenName": "Anais",
+                "familyName": "Valverde",
+                "fullName": "Anais Valverde"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2019-01-04T14:10:26.000Z",
+            "creationTime": "2018-01-03T21:42:49.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "avalverde@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "externalIds": [
+                {
+                    "value": "",
+                    "type": "organization"
+                }
+            ],
+            "organizations": [
+                {
+                    "title": "",
+                    "primary": true,
+                    "customType": "",
+                    "department": "",
+                    "description": "",
+                    "costCenter": ""
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "110463446187937086004",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/UIBNEFXJIvD14Z7UEyjog68lY7U\"",
+            "primaryEmail": "awapples@nycfss.org",
+            "name": {
+                "givenName": "Albert",
+                "familyName": "Wapples",
+                "fullName": "Albert Wapples"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-10-15T15:54:07.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "albertwapples@gmail.com",
+                    "type": "work"
+                },
+                {
+                    "address": "awapples@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "104358322594403167070",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/fwag0UGPmee_M0Iq-B7Mk1ccw7E\"",
+            "primaryEmail": "awilliams@nycfss.org",
+            "name": {
+                "givenName": "Amarna",
+                "familyName": "Williams",
+                "fullName": "Amarna Williams"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-12-28T16:37:45.000Z",
+            "creationTime": "2018-06-05T22:40:12.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "amarna.williams@gmail.com",
+                    "type": "work"
+                },
+                {
+                    "address": "awilliams@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "118163058300000901522",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/dnLMprtOIURyJ3lRmic_fmWzBxk\"",
+            "primaryEmail": "b2hintake@nycfss.org",
+            "name": {
+                "givenName": "Victoria",
+                "familyName": "Hammond",
+                "fullName": "Victoria Hammond"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-08-06T16:59:18.000Z",
+            "creationTime": "2014-06-04T13:56:05.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "b2hintake@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "111140023685563752710",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/hfq6MjdO20gPszqldURb25JSNZQ\"",
+            "primaryEmail": "brodriguez@nycfss.org",
+            "name": {
+                "givenName": "Brianna",
+                "familyName": "Rodriguez",
+                "fullName": "Brianna Rodriguez"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-11-03T02:28:56.000Z",
+            "creationTime": "2018-11-02T22:28:35.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "briannarosalina@gmail.com",
+                    "type": "work"
+                },
+                {
+                    "address": "brodriguez@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "117763813946440586827",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/Gc9XPXegb5GUDVs1ymCPRO-I3eI\"",
+            "primaryEmail": "cbond@nycfss.org",
+            "name": {
+                "givenName": "Claytene",
+                "familyName": "Bond",
+                "fullName": "Claytene Bond"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-11-02T22:13:56.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "claytenebond22@gmail.com",
+                    "type": "work"
+                },
+                {
+                    "address": "cbond@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "113365480662118699267",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/YM7LapPompkdVWLKStPhpQ3EOUY\"",
+            "primaryEmail": "chammond@nycfss.org",
+            "name": {
+                "givenName": "Christine",
+                "familyName": "Hammond",
+                "fullName": "Christine Hammond"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-08-25T20:50:19.000Z",
+            "creationTime": "2017-06-28T18:28:24.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "chammond@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "110245157428571014251",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/oKp_rn2khNmtITJumFsyvRl-mJA\"",
+            "primaryEmail": "cmarerro@nycfss.org",
+            "name": {
+                "givenName": "Caitlyn",
+                "familyName": "Marerro",
+                "fullName": "Caitlyn Marerro"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2019-01-02T16:58:48.000Z",
+            "creationTime": "2018-10-13T20:15:06.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "caitlynrose125@gmail.com",
+                    "type": "work"
+                },
+                {
+                    "address": "cmarerro@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "104872908992562781703",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/JSTBVJydhUF_QkjwbLchoqlDXpA\"",
+            "primaryEmail": "compliance@nycfss.org",
+            "name": {
+                "givenName": "Osita",
+                "familyName": "Igwe",
+                "fullName": "Osita Igwe"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-12-18T17:59:53.000Z",
+            "creationTime": "2015-08-04T16:03:05.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "compliance@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "111388681900702303222",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/ctK9OWtSUHPH9fXsE4qOfyLjGds\"",
+            "primaryEmail": "corta@nycfss.org",
+            "name": {
+                "givenName": "Carmen",
+                "familyName": "Orta",
+                "fullName": "Carmen Orta"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-12-26T23:37:56.000Z",
+            "creationTime": "2017-07-26T20:03:13.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "corta@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "117587425697703634022",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/glXb_9dKQm-dqGE9dUu-YC8Jy1I\"",
+            "primaryEmail": "damponsah@nycfss.org",
+            "name": {
+                "givenName": "Donald",
+                "familyName": "Amponsah",
+                "fullName": "Donald Amponsah"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2019-01-03T17:11:39.000Z",
+            "creationTime": "2018-05-02T16:41:55.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "damponsah@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "externalIds": [
+                {
+                    "value": "",
+                    "type": "organization"
+                }
+            ],
+            "organizations": [
+                {
+                    "title": "",
+                    "primary": true,
+                    "customType": "",
+                    "department": "",
+                    "description": "",
+                    "costCenter": ""
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "103991234240058188945",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/ukq1a8mWxnYpGmzTCXCLJR4t6ks\"",
+            "primaryEmail": "dgarcia@nycfss.org",
+            "name": {
+                "givenName": "Delta",
+                "familyName": "Garcia",
+                "fullName": "Delta Garcia"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2019-01-04T14:38:29.000Z",
+            "creationTime": "2011-09-24T17:34:52.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "dgarcia@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "107304733682637999821",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/ZdDFdZFviQ_-D3MXc-jCnUNv_cs\"",
+            "primaryEmail": "djavier@nycfss.org",
+            "name": {
+                "givenName": "Dalida",
+                "familyName": "Javier",
+                "fullName": "Dalida Javier"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-11-14T17:20:11.000Z",
+            "creationTime": "2018-11-02T22:30:22.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "dalida-j86@hotmail.com",
+                    "type": "work"
+                },
+                {
+                    "address": "djavier@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "101448315457811309046",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/K3ObBGmIG45WrxNpRHVKolBg6QA\"",
+            "primaryEmail": "dovalles@nycfss.org",
+            "name": {
+                "givenName": "Darleny",
+                "familyName": "Ovalles",
+                "fullName": "Darleny Ovalles"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-07-27T15:38:51.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": true,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "dovalles@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "105100511683387356554",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/dEjPkLMqRcqHCCKa7OZ--QAh37A\"",
+            "primaryEmail": "edelarosa@nycfss.org",
+            "name": {
+                "givenName": "Elizabeth",
+                "familyName": "De La Rosa",
+                "fullName": "Elizabeth De La Rosa"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-07-27T15:24:39.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": true,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "edelarosa07@gmail.com",
+                    "type": "work"
+                },
+                {
+                    "address": "edelarosa@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "113951928944411714203",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/LW24qUfd6LBnHfrYKFKdHd7TcJA\"",
+            "primaryEmail": "efeliciano@nycfss.org",
+            "name": {
+                "givenName": "Elizabeth",
+                "familyName": "Feliciano",
+                "fullName": "Elizabeth Feliciano"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-07-27T15:25:24.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": true,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "efeliciano@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "115567659348183342621",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/cqkGbIbEAF2nSsk1dfXDvAmEU9g\"",
+            "primaryEmail": "eflorentino@nycfss.org",
+            "name": {
+                "givenName": "Esmirsy",
+                "familyName": "Florentino",
+                "fullName": "Esmirsy Florentino"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-11-02T22:26:16.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "esmirsy27@gmail.com",
+                    "type": "work"
+                },
+                {
+                    "address": "eflorentino@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "111704196763127000788",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/XZmjmHmDivBYpCx0W1xow9jzFGA\"",
+            "primaryEmail": "egalvez@nycfss.org",
+            "name": {
+                "givenName": "Emilia",
+                "familyName": "Galvez",
+                "fullName": "Emilia Galvez"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-07-27T15:28:29.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": true,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "egalvez@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "117666264378687747216",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/20qaVYNJAiwjtcENHT96Ml3skdQ\"",
+            "primaryEmail": "equiles@nycfss.org",
+            "name": {
+                "givenName": "Erick",
+                "familyName": "Quiles",
+                "fullName": "Erick Quiles"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-11-02T22:18:05.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "erikquiles@gmail.com",
+                    "type": "work"
+                },
+                {
+                    "address": "equiles@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "102121907604943287192",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/5XQRjSeG0Gj5zkMJUF5TiiE8xiA\"",
+            "primaryEmail": "evelasquez@nycfss.org",
+            "name": {
+                "givenName": "Elvira",
+                "familyName": "Velasquez",
+                "fullName": "Elvira Velasquez"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-07-27T15:52:47.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": true,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "evelasquez@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "115598495956004368421",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/1gME6owNoZQnUlsU6jHJpgj-lsM\"",
+            "primaryEmail": "gromero@nycfss.org",
+            "name": {
+                "givenName": "Gaira",
+                "familyName": "Romero",
+                "fullName": "Gaira Romero"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-10-15T16:01:34.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "gromero626@gmail.com",
+                    "type": "work"
+                },
+                {
+                    "address": "gromero@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "101515008350995093103",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/lqHfDhFQRHLY3YrpPlCla2UITzk\"",
+            "primaryEmail": "gurena@nycfss.org",
+            "name": {
+                "givenName": "Genesis",
+                "familyName": "Urena",
+                "fullName": "Genesis Urena"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2019-01-04T14:59:26.000Z",
+            "creationTime": "2018-08-16T13:23:25.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "gurena@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true,
+            "thumbnailPhotoUrl": "https://plus.google.com/_/focus/photos/private/AIbEiAIAAABDCO-swIaYgpmDFSILdmNhcmRfcGhvdG8qKDcxOTYwZjQ4YTQ4MWM3MzBlODJiZmMzZGMzZGNiZTcxMWMzNjllZTYwAYyAtUKZXc__HTWVVpJNMSH5muJZ",
+            "thumbnailPhotoEtag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/MUI7q1nJB2yivbNDbGqbop8Gd0Q\""
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "115665229916890577157",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/WM10uuw_DspXXi_TXP2pFaW9EPQ\"",
+            "primaryEmail": "hflorimon@nycfss.org",
+            "name": {
+                "givenName": "Herminia",
+                "familyName": "Florimon",
+                "fullName": "Herminia Florimon"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-07-27T15:27:09.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": true,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "hflorimon@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "102873415138895481110",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/13dhBuU8hxtw8Qx8uKKXaU1AWg0\"",
+            "primaryEmail": "humanresources@nycfss.org",
+            "name": {
+                "givenName": "Rose",
+                "familyName": "Blanchard",
+                "fullName": "Rose Blanchard"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2019-01-04T14:09:53.000Z",
+            "creationTime": "2016-06-30T19:12:38.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "humanresources@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "100382016872612824011",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/3j_y_FYCmL2ZYaJ8f87d8AjQQh4\"",
+            "primaryEmail": "igraham@nycfss.org",
+            "name": {
+                "givenName": "Ieshia",
+                "familyName": "Graham",
+                "fullName": "Ieshia Graham"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-12-17T19:29:58.000Z",
+            "creationTime": "2015-03-06T19:58:48.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "igraham@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "gender": {
+                "type": "female"
+            },
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "113502111330355159794",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/90LL4APP362Up6HXvII5RBWs0sQ\"",
+            "primaryEmail": "irivera@nycfss.org",
+            "name": {
+                "givenName": "Isabel",
+                "familyName": "Rivera",
+                "fullName": "Isabel Rivera"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2019-01-03T13:47:15.000Z",
+            "creationTime": "2018-03-06T18:35:35.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "irivera@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "externalIds": [
+                {
+                    "value": "",
+                    "type": "organization"
+                }
+            ],
+            "organizations": [
+                {
+                    "title": "",
+                    "primary": true,
+                    "customType": "",
+                    "department": "",
+                    "description": "",
+                    "costCenter": ""
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "100938578058544408607",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/FybRnpBq4Q4auAnYxOmP4E7I-JU\"",
+            "primaryEmail": "j.garcia@nycfss.org",
+            "name": {
+                "givenName": "Joel",
+                "familyName": "Garcia",
+                "fullName": "Joel Garcia"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-12-26T16:26:08.000Z",
+            "creationTime": "2018-08-08T14:28:57.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "j.garcia@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "116886529504504834460",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/FStr4atAqJVGoodYLaktOdIEyHE\"",
+            "primaryEmail": "j.lopez@nycfss.org",
+            "name": {
+                "givenName": "Javier",
+                "familyName": "Lopez",
+                "fullName": "Javier Lopez"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-07-27T15:36:42.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": true,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "j.lopez@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "117031331908086485448",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/6ynYbvBwOC5A0Tl6X9Y83vRrCc8\"",
+            "primaryEmail": "jbenitez@nycfss.org",
+            "name": {
+                "givenName": "Jamilees",
+                "familyName": "Benitez",
+                "fullName": "Jamilees Benitez"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-11-02T22:13:14.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "jamilees.b@gmail.com",
+                    "type": "work"
+                },
+                {
+                    "address": "jbenitez@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "109744550923612221656",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/w8fidzCX3qS6CvF8dYCvFssjDgQ\"",
+            "primaryEmail": "jchiavaroli@nycfss.org",
+            "name": {
+                "givenName": "Joseph",
+                "familyName": "Chiavaroli",
+                "fullName": "Joseph Chiavaroli"
+            },
+            "isAdmin": true,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2019-01-05T19:21:08.000Z",
+            "creationTime": "2018-08-04T14:30:23.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "joe.chev@gmail.com",
+                    "type": "work"
+                },
+                {
+                    "address": "jchiavaroli@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "111172226054081276051",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/LPO2C4KkD3WTXvlkWJ8FKg2dOfY\"",
+            "primaryEmail": "jgarcia@nycfss.org",
+            "name": {
+                "givenName": "Jinette",
+                "familyName": "Garcia",
+                "fullName": "Jinette Garcia"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2019-01-02T15:42:51.000Z",
+            "creationTime": "2018-06-05T22:41:37.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "jinett.beltre@gmail.com",
+                    "type": "work"
+                },
+                {
+                    "address": "jgarcia@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "114419213444647083699",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/6VeTOstPoTXy2D4gEu_A7hAf93M\"",
+            "primaryEmail": "jmorel@nycfss.org",
+            "name": {
+                "givenName": "Juliana",
+                "familyName": "Morel",
+                "fullName": "Juliana Morel"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-07-30T15:42:49.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": true,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "jmorel@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "115171198166814445260",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/ou1EC8dw7w7BECWPqDzYk6a78Tc\"",
+            "primaryEmail": "jperalta@nycfss.org",
+            "name": {
+                "givenName": "Jawilda",
+                "familyName": "Peralta",
+                "fullName": "Jawilda Peralta"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-11-02T22:17:20.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "jowi_per@hotmail.com",
+                    "type": "work"
+                },
+                {
+                    "address": "jperalta@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "112913931492386467516",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/gS2NjfBvojyLCkyhHWRbDu3rlEg\"",
+            "primaryEmail": "jrmerveille@nycfss.org",
+            "name": {
+                "givenName": "Jean Richard",
+                "familyName": "Merveille",
+                "fullName": "Jean Richard Merveille"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-10-24T12:18:35.000Z",
+            "creationTime": "2018-07-27T15:37:43.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "jrmerveille@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true,
+            "thumbnailPhotoUrl": "https://plus.google.com/_/focus/photos/private/AIbEiAIAAABECLzds8vXiOCbswEiC3ZjYXJkX3Bob3RvKigyYjEwODU0ODYzZmEwNTY5MmE1ZGFkMzNmODJkNDQ4YWFhZTI2MjA2MAG3V3b_DtInV_Pv2Y89gCUkm_XH9g",
+            "thumbnailPhotoEtag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/TXHALggQnjstQvPwvUjTau2W_5Y\""
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "107330024262227879711",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/hSQgyi3DsOswAY9xGlvJ7PumYYs\"",
+            "primaryEmail": "k.peralta@nycfss.org",
+            "name": {
+                "givenName": "Karlista",
+                "familyName": "Peralta",
+                "fullName": "Karlista Peralta"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2019-01-02T17:50:08.000Z",
+            "creationTime": "2016-08-30T17:21:04.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "k.peralta@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "101537122935665582021",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/jhVql6ZPvQ3EK0M5mZk6Pz1MfnU\"",
+            "primaryEmail": "kacevedo@nycfss.org",
+            "name": {
+                "givenName": "Kimberly",
+                "familyName": "Acevedo",
+                "fullName": "Kimberly Acevedo"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2019-01-04T19:04:21.000Z",
+            "creationTime": "2018-10-22T16:35:08.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "k.acevedo4295@gmail.com",
+                    "type": "work"
+                },
+                {
+                    "address": "kacevedo@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "108863316096417476796",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/7y9OI-cfXXQlfg5oGsHsVD2W6Sc\"",
+            "primaryEmail": "kmora@nycfss.org",
+            "name": {
+                "givenName": "Kevynn",
+                "familyName": "Mora",
+                "fullName": "Kevynn Mora"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-11-02T22:26:54.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "k.mora6372@gmail.com",
+                    "type": "work"
+                },
+                {
+                    "address": "kmora@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "114915002562833841304",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/dG2jPcfeHRnyrV76gJqvXQGsy6o\"",
+            "primaryEmail": "llascano@nycfss.org",
+            "name": {
+                "givenName": "Lourdes",
+                "familyName": "Lascano",
+                "fullName": "Lourdes Lascano"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-07-27T15:33:07.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": true,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "llascano@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "100959591503196294646",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/yQu8njkud0rAtJNengoU7MH-ulE\"",
+            "primaryEmail": "m.jones@nycfss.org",
+            "name": {
+                "givenName": "Michelle",
+                "familyName": "Jones",
+                "fullName": "Michelle Jones"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-12-05T14:39:35.000Z",
+            "creationTime": "2018-11-09T19:30:21.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "michellesjb@yahoo.com",
+                    "type": "work"
+                },
+                {
+                    "address": "m.jones@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "111583221099397039907",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/gNpmf2XxZhh2J61f8ap6DFC8Alo\"",
+            "primaryEmail": "madeniji@nycfss.org",
+            "name": {
+                "givenName": "Michael",
+                "familyName": "Adeniji",
+                "fullName": "Michael Adeniji"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-07-27T15:20:27.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": true,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "adenijimike1@yahoo.com",
+                    "type": "work"
+                },
+                {
+                    "address": "madeniji@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "106221998401609250443",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/IqPAmiv8RNUPKjF-bbeZ2w4X00M\"",
+            "primaryEmail": "mbianco@nycfss.org",
+            "name": {
+                "givenName": "Michael",
+                "familyName": "Bianco",
+                "fullName": "Michael Bianco"
+            },
+            "isAdmin": true,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-12-26T18:01:28.000Z",
+            "creationTime": "2017-10-27T13:55:16.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "mbianco@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "116125878768905253895",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/a_9K-Ud3tSljFcyBXeVqXYRCatw\"",
+            "primaryEmail": "mdejesus@nycfss.org",
+            "name": {
+                "givenName": "Maria",
+                "familyName": "De Jesus",
+                "fullName": "Maria De Jesus"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-08-09T15:07:31.000Z",
+            "creationTime": "2018-07-30T15:42:04.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "mdejesus@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "117190480958734032254",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/ONuQefFsL3UVaLpY-uF52pP7PcI\"",
+            "primaryEmail": "mdmartinez@nycfss.org",
+            "name": {
+                "givenName": "Maria D.",
+                "familyName": "Martinez",
+                "fullName": "Maria D. Martinez"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-06-22T19:19:33.000Z",
+            "creationTime": "2011-09-29T19:19:54.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "mdmartinez@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "102361811061504764877",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/NC4DNUZsnsdGJpHAicb7QgYlvpA\"",
+            "primaryEmail": "mhernandez@nycfss.org",
+            "name": {
+                "givenName": "Maria",
+                "familyName": "Hernandez",
+                "fullName": "Maria Hernandez"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-07-27T15:30:45.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": true,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "mhernandez@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "100789914807127657524",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/gCAEpmoOVRm61Du8TEHC5okdEDE\"",
+            "primaryEmail": "mherrera@nycfss.org",
+            "name": {
+                "givenName": "Mercedes",
+                "familyName": "Herrera",
+                "fullName": "Mercedes Herrera"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-07-27T15:31:30.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": true,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "mherrera@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "116519050231895073113",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/QHz6tmxQ90xPrSlb_IqvA6X3uqI\"",
+            "primaryEmail": "mjones@nycfss.org",
+            "name": {
+                "givenName": "Maida",
+                "familyName": "Jones",
+                "fullName": "Maida Jones"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-12-27T17:22:34.000Z",
+            "creationTime": "2018-07-27T15:32:24.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "mjones@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "109941941394529988021",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/W0M_n27hdUQF2aTbDr819YLDAe4\"",
+            "primaryEmail": "mmevshammond@nycfss.org",
+            "name": {
+                "givenName": "Magaly",
+                "familyName": "Mevs-Hammond",
+                "fullName": "Magaly Mevs-Hammond"
+            },
+            "isAdmin": true,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2019-01-04T15:46:18.000Z",
+            "creationTime": "2011-04-16T20:39:35.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "mmevshammond@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "gender": {
+                "type": "female"
+            },
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true,
+            "thumbnailPhotoUrl": "https://plus.google.com/_/focus/photos/public/AIbEiAIAAABECLXb2PXg4Lf8iQEiC3ZjYXJkX3Bob3RvKihmZDU0YzE4YWYzYTFmNGNmNmQ3NDJiNmRhM2YzYWE4M2M3MzczNzdhMAG0ghexd7NXqU36KoWwcLgPyO-3iQ",
+            "thumbnailPhotoEtag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/BsHi16nbboP3eT_0nGkd96S0YK8\""
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "109793715138657110030",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/VVVsl01JZpczf3ij1UoUpAGodqA\"",
+            "primaryEmail": "mrodriguez@nycfss.org",
+            "name": {
+                "givenName": "Maria",
+                "familyName": "Rodriguez",
+                "fullName": "Maria Rodriguez"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2019-01-03T14:34:23.000Z",
+            "creationTime": "2018-03-02T15:38:16.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "mrodriguez@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "externalIds": [
+                {
+                    "value": "",
+                    "type": "organization"
+                }
+            ],
+            "organizations": [
+                {
+                    "title": "",
+                    "primary": true,
+                    "customType": "",
+                    "department": "",
+                    "description": "",
+                    "costCenter": ""
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true,
+            "thumbnailPhotoUrl": "https://plus.google.com/_/focus/photos/private/AIbEiAIAAABECI6Ql_j3gJH1hwEiC3ZjYXJkX3Bob3RvKig2Zjk2Nzg4OWU0MzlhZmE2ZmVjNzQ4ZDlkZmE2ZDkzMzk1YTcyOWQ2MAE4RcXgJsXJR3eBjMExJaRBYd6hbg",
+            "thumbnailPhotoEtag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/ZYzaPB-gn3frSGuyeUk_t0iQMXQ\""
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "115567171466224216296",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/dmnFOvrQY-4pE9lByvr0Br4IoSY\"",
+            "primaryEmail": "mvasquez@nycfss.org",
+            "name": {
+                "givenName": "Maritza",
+                "familyName": "Vasquez",
+                "fullName": "Maritza Vasquez"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-11-28T13:59:01.000Z",
+            "creationTime": "2018-05-02T16:49:57.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "mvasquez@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "externalIds": [
+                {
+                    "value": "",
+                    "type": "organization"
+                }
+            ],
+            "organizations": [
+                {
+                    "title": "",
+                    "primary": true,
+                    "customType": "",
+                    "department": "",
+                    "description": "",
+                    "costCenter": ""
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "116815811665737494088",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/B_6yWlglh2NhVSIgXRfymMhLU94\"",
+            "primaryEmail": "mvizcarrondo@nycfss.org",
+            "name": {
+                "givenName": "Martha",
+                "familyName": "Vizcarrondo",
+                "fullName": "Martha Vizcarrondo"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2019-01-01T21:38:13.000Z",
+            "creationTime": "2011-05-04T16:50:19.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "mvizcarrondo@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "112796857789248836412",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/dleU79hCt105EIg5MH9g61o1K_E\"",
+            "primaryEmail": "nchambliss@nycfss.org",
+            "name": {
+                "givenName": "Neville",
+                "familyName": "Chambliss",
+                "fullName": "Neville Chambliss"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-11-02T22:14:55.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "nchambliss@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "117255522869210582181",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/HPrjsG4OP9goCYd_Qu-C0pK6q7U\"",
+            "primaryEmail": "nlopez@nycfss.org",
+            "name": {
+                "givenName": "Nicole",
+                "familyName": "Lopez",
+                "fullName": "Nicole Lopez"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-12-25T12:12:41.000Z",
+            "creationTime": "2018-11-02T22:29:48.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "nicolelopez0606@gmail.com",
+                    "type": "work"
+                },
+                {
+                    "address": "nlopez@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "104139941610076619299",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/388ERAp4a7cOyiRxihhXLnyLn8Q\"",
+            "primaryEmail": "nwilliams@nycfss.org",
+            "name": {
+                "givenName": "Nadia",
+                "familyName": "Williams",
+                "fullName": "Nadia Williams"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-06-05T22:40:57.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": true,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "nwill4639@gmail.com",
+                    "type": "work"
+                },
+                {
+                    "address": "nwilliams@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "112478687070965020211",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/XHE21N-Droz1EfXyOaaiQV6Iv4M\"",
+            "primaryEmail": "oigwe@nycfss.org",
+            "name": {
+                "givenName": "Osita",
+                "familyName": "Igwe",
+                "fullName": "Osita Igwe"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2019-01-04T15:04:44.000Z",
+            "creationTime": "2014-06-26T15:45:59.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "oigwe@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "101135750225801997333",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/3UfjCU889SQtgRb_V4O27CnRNSw\"",
+            "primaryEmail": "opinales@nycfss.org",
+            "name": {
+                "givenName": "Oriatny",
+                "familyName": "Pinales",
+                "fullName": "Oriatny Pinales"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-11-02T22:27:58.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "orp018@outlook.com",
+                    "type": "work"
+                },
+                {
+                    "address": "opinales@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "105289274888696277612",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/8p2-sKPUge8gYrKMqNNTsNtvmo0\"",
+            "primaryEmail": "paperwork@nycfss.org",
+            "name": {
+                "givenName": "Osita",
+                "familyName": "Igwe",
+                "fullName": "Osita Igwe"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2019-01-04T06:49:20.000Z",
+            "creationTime": "2016-08-12T19:08:23.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "paperwork@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "117948351106954021872",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/X3Uj204hDe5KAVbFJJu0hiAn3iw\"",
+            "primaryEmail": "rblanchard@nycfss.org",
+            "name": {
+                "givenName": "Rose",
+                "familyName": "Blanchard",
+                "fullName": "Rose Blanchard"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2019-01-01T01:27:26.000Z",
+            "creationTime": "2015-11-16T18:46:19.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "rblanchard@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "111517313463149693415",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/t2sGi5Nif3HQTAa0Wq1ZjSQkKmc\"",
+            "primaryEmail": "rcastro@nycfss.org",
+            "name": {
+                "givenName": "Rosa Lina",
+                "familyName": "Peralta Castro",
+                "fullName": "Rosa Lina Peralta Castro"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-08-01T23:10:00.000Z",
+            "creationTime": "2018-07-27T15:48:00.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "rcastro@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "101958536819266462623",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/VnTCrlDne3Xkx_ulTCxRJcMboA8\"",
+            "primaryEmail": "rcruz@nycfss.org",
+            "name": {
+                "givenName": "Rosa",
+                "familyName": "Cruz",
+                "fullName": "Rosa Cruz"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-07-27T15:22:52.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": true,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "lisettecruz123@gmail.com",
+                    "type": "work"
+                },
+                {
+                    "address": "rcruz@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "106955677333357027967",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/XNei23BG2BRQ18OgUbdcz6sKx8k\"",
+            "primaryEmail": "rduran@nycfss.org",
+            "name": {
+                "givenName": "Reina",
+                "familyName": "Duran",
+                "fullName": "Reina Duran"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2019-01-04T15:59:20.000Z",
+            "creationTime": "2011-05-04T16:48:11.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "rduran@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "109211020180240351940",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/AK8Hd_SllalE9uqyFSvub29f7Wc\"",
+            "primaryEmail": "rgaro@nycfss.org",
+            "name": {
+                "givenName": "Rosa",
+                "familyName": "Garo",
+                "fullName": "Rosa Garo"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-11-29T19:58:47.000Z",
+            "creationTime": "2018-07-27T15:29:18.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "rgaro@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "109861430013076865364",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/do6W_z2hSWeMzTtHbtS83fIXvfg\"",
+            "primaryEmail": "rgiorgia@nycfss.org",
+            "name": {
+                "givenName": "Robert",
+                "familyName": "Giorgianni",
+                "fullName": "Robert Giorgianni"
+            },
+            "isAdmin": true,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-12-10T23:21:20.000Z",
+            "creationTime": "2011-04-14T17:53:41.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "rgiorgia@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "117171930422354049737",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/HPrMGVW7lvvoTSMhsm0LgDrHjyY\"",
+            "primaryEmail": "rmoreau@nycfss.org",
+            "name": {
+                "givenName": "Ruthza",
+                "familyName": "Moreau",
+                "fullName": "Ruthza Moreau"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2019-01-03T03:35:14.000Z",
+            "creationTime": "2018-08-13T18:20:06.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "rmoreau@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "106109496809338237946",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/44T_SCW_cUXs_mJEHceEUhKUUZM\"",
+            "primaryEmail": "sboston@nycfss.org",
+            "name": {
+                "givenName": "Shiam",
+                "familyName": "Boston",
+                "fullName": "Shiam Boston"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-07-27T15:21:48.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": true,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "alvarezshiam@gmail.com",
+                    "type": "work"
+                },
+                {
+                    "address": "sboston@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "115059761588977100332",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/_Ee9AnHoz_0q81yP6DLO3rt10N0\"",
+            "primaryEmail": "scanner@nycfss.org",
+            "name": {
+                "givenName": "CFSS",
+                "familyName": "CFSS",
+                "fullName": "CFSS CFSS"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2019-01-04T20:44:43.000Z",
+            "creationTime": "2017-08-14T16:08:51.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "scanner@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "112216040134179198668",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/W1G9h7voNaNiYnUox7_mnieGYYc\"",
+            "primaryEmail": "scovert@nycfss.org",
+            "name": {
+                "givenName": "Sharon",
+                "familyName": "Covert",
+                "fullName": "Sharon Covert"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-07-09T16:44:44.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": true,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "ssrssssjs@gmail.com",
+                    "type": "work"
+                },
+                {
+                    "address": "scovert@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "111092318371176415854",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/racsNQ38f6og5DRBHeNn8iyhJug\"",
+            "primaryEmail": "sfabian@nycfss.org",
+            "name": {
+                "givenName": "Stephanie",
+                "familyName": "Fabian",
+                "fullName": "Stephanie Fabian"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2019-01-04T19:47:24.000Z",
+            "creationTime": "2018-08-08T16:47:46.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "sfabian@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "106878570453310948739",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/s8wV_6KV5gkbQTfF-qC3J8Zok-o\"",
+            "primaryEmail": "sgraham@nycfss.org",
+            "name": {
+                "givenName": "Stephanie",
+                "familyName": "Graham",
+                "fullName": "Stephanie Graham"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-07-27T15:30:02.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": true,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "sgraham@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "100142949207983236284",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/nEr96qmk6IAiuSurE1yb9mwrk4Y\"",
+            "primaryEmail": "sleiva@nycfss.org",
+            "name": {
+                "givenName": "Silvia",
+                "familyName": "Leiva",
+                "fullName": "Silvia Leiva"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-07-27T15:33:49.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": true,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "sleiva@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "103140186261725420919",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/_qIcrevdZBIwrTPvfsAz9i9Xq24\"",
+            "primaryEmail": "somoruyi@nycfss.org",
+            "name": {
+                "givenName": "Stephen",
+                "familyName": "Omoruyi",
+                "fullName": "Stephen Omoruyi"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2019-01-03T18:29:35.000Z",
+            "creationTime": "2011-05-24T17:54:56.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "somoruyi@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "gender": {
+                "type": "male"
+            },
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true,
+            "thumbnailPhotoUrl": "https://plus.google.com/_/focus/photos/public/AIbEiAIAAABDCPe60pXI2IvKKyILdmNhcmRfcGhvdG8qKDNlNDZjNDEzZTIxYTFhY2Q1NDgzMmNlMTE4OWFkYTVlYjliYWQ5NjEwAe10NyKFRo347f_uqgHejBCA1ruG",
+            "thumbnailPhotoEtag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/QfXjTUode5w_w45D70X0bSD8yno\""
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "108877397230770227862",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/yfzPE1WTm3Cjj1yB1owxQ5gA3-Y\"",
+            "primaryEmail": "spolanco@nycfss.org",
+            "name": {
+                "givenName": "Stephanie",
+                "familyName": "Polanco",
+                "fullName": "Stephanie Polanco"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-07-27T15:48:33.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": true,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "spolanco@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "117829127128241445640",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/0pMzrht-EIQYJ0XM4d4IY9ixjuc\"",
+            "primaryEmail": "srosariobueno@nycfss.org",
+            "name": {
+                "givenName": "Saony",
+                "familyName": "Rosario Bueno",
+                "fullName": "Saony Rosario Bueno"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-11-19T10:25:20.000Z",
+            "creationTime": "2018-10-15T16:25:37.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "Megasuani@hotmail.com",
+                    "type": "work"
+                },
+                {
+                    "address": "srosariobueno@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "115167495267892841157",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/5tdUDkJSvPHDp4jbTWz2Gl087W8\"",
+            "primaryEmail": "tknibbs@nycfss.org",
+            "name": {
+                "givenName": "Taniqua",
+                "familyName": "Knibbs",
+                "fullName": "Taniqua Knibbs"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-11-02T22:16:38.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "knibbsbronx@aol.com",
+                    "type": "work"
+                },
+                {
+                    "address": "tknibbs@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "115058728540194168695",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/wCIITPRfjm-1GxPYrbE5ymMyuIs\"",
+            "primaryEmail": "tross@nycfss.org",
+            "name": {
+                "givenName": "Tamayla",
+                "familyName": "Ross",
+                "fullName": "Tamayla Ross"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-12-28T22:21:47.000Z",
+            "creationTime": "2012-12-06T20:49:23.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "tross@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "gender": {
+                "type": "female"
+            },
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "114117976875012722017",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/jZPOOswiypmKKZEgSioGgtYtSiY\"",
+            "primaryEmail": "tsharafat@nycfss.org",
+            "name": {
+                "givenName": "Tania",
+                "familyName": "Sharafat",
+                "fullName": "Tania Sharafat"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-12-26T04:00:34.000Z",
+            "creationTime": "2017-12-21T14:56:45.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "intern@nycfss.org"
+                },
+                {
+                    "address": "tsharafat@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "organizations": [
+                {
+                    "primary": true,
+                    "customType": ""
+                }
+            ],
+            "aliases": [
+                "intern@nycfss.org"
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "112195033598951143197",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/MIrNnl8RPrgfB0MY1HB4Y2DWrv4\"",
+            "primaryEmail": "turena@nycfss.org",
+            "name": {
+                "givenName": "Tenisha",
+                "familyName": "Urena",
+                "fullName": "Tenisha Urena"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-12-28T13:41:43.000Z",
+            "creationTime": "2017-03-28T16:39:11.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "turena@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true,
+            "thumbnailPhotoUrl": "https://plus.google.com/_/focus/photos/private/AIbEiAIAAABECJ3uvsujzt2eqQEiC3ZjYXJkX3Bob3RvKig4YmYyZGM3M2FmMmMwNmMyZjFlYjc0YTdlZTFmNjIwYjBkMmZiYmUwMAGcX267MLEvH-EmvoggltnDgn2uKw",
+            "thumbnailPhotoEtag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/5e7ssC6OcmU-9-BS8Xu-kaj8R-0\""
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "116205201217427569381",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/6t2CRCPVtbk7-GiD-bJXexL7Oww\"",
+            "primaryEmail": "vdiaz@nycfss.org",
+            "name": {
+                "givenName": "Vianka",
+                "familyName": "Diaz",
+                "fullName": "Vianka Diaz"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2019-01-05T08:13:24.000Z",
+            "creationTime": "2014-10-20T15:20:17.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "vdiaz@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "gender": {
+                "type": "female"
+            },
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "103172656877610993676",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/xV-rB9LwzMGmqMTeWWcb6J2r3ts\"",
+            "primaryEmail": "verostico@nycfss.org",
+            "name": {
+                "givenName": "Vanessa",
+                "familyName": "Erostico",
+                "fullName": "Vanessa Erostico"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2019-01-04T20:32:11.000Z",
+            "creationTime": "2016-06-15T16:28:12.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "verostico@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "gender": {
+                "type": "female"
+            },
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true,
+            "thumbnailPhotoUrl": "https://plus.google.com/_/focus/photos/public/AIbEiAIAAABDCIyQ0MHu0-KDLCILdmNhcmRfcGhvdG8qKGI3NjRiYTcwOGUyYTNmMjc0ZTM0MDk5NzAzOWI4MDQ4MTNlNTJjMzMwAfy-x0dGTtWnRXXh92_P1DdX7grG",
+            "thumbnailPhotoEtag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/cMzxzdxTf8_yGEgtAJt4ACFdrDw\""
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "113090766311491822109",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/D3xCjIETqtQWm9upcD_4kN08znY\"",
+            "primaryEmail": "vhammond@nycfss.org",
+            "name": {
+                "givenName": "Victoria",
+                "familyName": "Hammond",
+                "fullName": "Victoria Hammond"
+            },
+            "isAdmin": true,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-12-31T15:53:35.000Z",
+            "creationTime": "2011-04-15T17:39:51.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "vhammond@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "gender": {
+                "type": "female"
+            },
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "112595595359646835709",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/3QAa1r_Ss4iTFxwwL7YPZEDNnHI\"",
+            "primaryEmail": "vmendez@nycfss.org",
+            "name": {
+                "givenName": "Victoria",
+                "familyName": "Mendez",
+                "fullName": "Victoria Mendez"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2019-01-04T20:49:54.000Z",
+            "creationTime": "2018-02-09T17:09:55.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "vmendez@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "111911075935266986877",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/gMus5xXik_IXfxTcWpN67nKcWP4\"",
+            "primaryEmail": "wcisneros@nycfss.org",
+            "name": {
+                "givenName": "Wilson",
+                "familyName": "Cisneros",
+                "fullName": "Wilson Cisneros"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "1970-01-01T00:00:00.000Z",
+            "creationTime": "2018-11-02T22:15:57.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "wilsoncisneros1995@gmail.com",
+                    "type": "work"
+                },
+                {
+                    "address": "wcisneros@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "114169193358513128728",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/LL0jNCqQA6edcIrqZQhHNh7wab4\"",
+            "primaryEmail": "wvelez@nycfss.org",
+            "name": {
+                "givenName": "Wanda",
+                "familyName": "Velez",
+                "fullName": "Wanda Velez"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2019-01-03T13:03:23.000Z",
+            "creationTime": "2018-06-20T01:23:35.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "wandavelez144@gmail.com",
+                    "type": "work"
+                },
+                {
+                    "address": "wvelez@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "103991090048594609136",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/XtAMnSLT-JSs4uYubCLpDuzZ5tQ\"",
+            "primaryEmail": "ygarcia@nycfss.org",
+            "name": {
+                "givenName": "Yokasta",
+                "familyName": "Garcia",
+                "fullName": "Yokasta Garcia"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-12-04T20:18:53.000Z",
+            "creationTime": "2017-11-14T21:28:21.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "ygarcia@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "externalIds": [
+                {
+                    "value": "",
+                    "type": "organization"
+                }
+            ],
+            "organizations": [
+                {
+                    "title": "",
+                    "primary": true,
+                    "customType": "",
+                    "department": "",
+                    "description": "",
+                    "costCenter": ""
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true,
+            "thumbnailPhotoUrl": "https://plus.google.com/_/focus/photos/private/AIbEiAIAAABDCPCH0KiO6MyxNyILdmNhcmRfcGhvdG8qKDNlOGY1Y2NlOTVjYTVlYjMxMDMwOWMxYmNkNzk5NTI0NTE4NGU2MzcwARRdit0QhPtLg9cbcPj3BfNtWCDH",
+            "thumbnailPhotoEtag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/h1pspjakPecUG7L2XRZ89UFcqwQ\""
+        },
+        {
+            "kind": "admin#directory#user",
+            "id": "117073212694601143133",
+            "etag": "\"TN30oD80QTVK45AAxvl_wbzs4vs/U9mdyv1rWMChYGGrjMJ1VrU7oUw\"",
+            "primaryEmail": "yrosario@nycfss.org",
+            "name": {
+                "givenName": "Yulissa",
+                "familyName": "Rosario",
+                "fullName": "Yulissa Rosario"
+            },
+            "isAdmin": false,
+            "isDelegatedAdmin": false,
+            "lastLoginTime": "2018-12-12T04:38:49.000Z",
+            "creationTime": "2018-07-27T15:50:12.000Z",
+            "agreedToTerms": true,
+            "suspended": false,
+            "archived": false,
+            "changePasswordAtNextLogin": false,
+            "ipWhitelisted": false,
+            "emails": [
+                {
+                    "address": "yrosario@nycfss.org",
+                    "primary": true
+                }
+            ],
+            "customerId": "C02ynwitn",
+            "orgUnitPath": "/",
+            "isMailboxSetup": true,
+            "isEnrolledIn2Sv": false,
+            "isEnforcedIn2Sv": false,
+            "includeInGlobalAddressList": true
+        }
+    ]
+}

@@ -9,7 +9,7 @@ import {ApiService} from "../api.service";
 
 export abstract class DomainService<T extends DomainEntity> implements IDomainService<T> {
 
-  protected constructor(private api: ApiService, private deserializer: EntityDeserializer<T>) {}
+  protected constructor(protected api: ApiService, protected deserializer: EntityDeserializer<T>) {}
 
   abstract resource(): string;
 
@@ -26,11 +26,15 @@ export abstract class DomainService<T extends DomainEntity> implements IDomainSe
   }
 
   create(entity: T): Observable<T> {
-    return this.api.create(entity);
+    return this.api
+        .create(entity)
+        .pipe(map(resp => this.deserializer.deserialize(resp)));
   }
 
   update(entity: T): Observable<T> {
-    return this.api.update(entity);
+    return this.api
+        .update(entity)
+        .pipe(map(resp => this.deserializer.deserialize(resp)));
   }
 
   delete(entity: T): void {

@@ -1,61 +1,42 @@
 buildscript {
-	ext {
-		springBootVersion = '2.1.1.RELEASE'
-	}
-	repositories {
-		mavenCentral()
-        maven {
-            url "https://plugins.gradle.org/m2/"
-        }
-        maven {
-            url 'https://repo.spring.io/milestone/'
-        }
-	}
-	dependencies {
-		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
-        classpath "io.spring.gradle:dependency-management-plugin:1.0.6.RELEASE"
-        classpath "com.adarshr:gradle-test-logger-plugin:1.1.2"
-	}
+    ext {
+        springBootVersion = '2.0.5.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
 }
 
-apply plugin: 'com.adarshr.test-logger'
 apply plugin: 'java'
 apply plugin: 'groovy'
 apply plugin: 'idea'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
-group = 'com.ny.cfss'
-version = '0.0.1-SNAPSHOT'
-sourceCompatibility = 1.8
-
 repositories {
-	mavenCentral()
-    maven {
-        url 'https://repo.spring.io/milestone/'
-    }
+    mavenCentral()
+    maven { url "https://repo.spring.io/milestone" }
 }
 
 dependencies {
-    compile('org.springframework.boot:spring-boot-starter-actuator')
+    compile('org.springframework.boot:spring-boot-starter-data-jpa')
+    compile('org.springframework.boot:spring-boot-starter-data-rest')
+    compile('org.springframework.boot:spring-boot-starter-hateoas')
     compile('org.springframework.boot:spring-boot-starter-security')
     compile('org.springframework.boot:spring-boot-starter-web')
-	compile('org.springframework.boot:spring-boot-starter-data-jpa')
-	compile('org.springframework.boot:spring-boot-starter-data-rest')
-	compile('org.springframework.boot:spring-boot-starter-hateoas')
-    compile('org.springframework.cloud:spring-cloud-starter-oauth2:1.2.3.RELEASE')
-    compile('org.projectlombok:lombok:1.18.4')
-    // DB
-	runtime('mysql:mysql-connector-java:8.0.13')
+    compile('org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:2.0.5.RELEASE')
+    compile 'org.webjars:jquery:3.3.1-1'
+    compile 'org.webjars:bootstrap:4.2.1'
+    compile 'org.webjars:webjars-locator-core:0.36'
+    compile 'org.webjars:angularjs:1.7.5'
+    compileOnly('org.projectlombok:lombok:1.18.4')
+    runtime('mysql:mysql-connector-java:8.0.13')
     runtime('org.flywaydb:flyway-core')
-    // Test
-	testCompile('org.springframework.boot:spring-boot-starter-test')
-    testCompile("org.springframework.security:spring-security-test")
+    testRuntime('com.h2database:h2:1.4.197')
+    testCompile('org.springframework.boot:spring-boot-starter-test')
+    testCompile('org.springframework.security:spring-security-test')
     testCompile('org.codehaus.groovy:groovy-all')
-}
-
-dependencyManagement {
-    imports {
-        mavenBom "org.springframework.cloud:spring-cloud-starter-parent:Camden.SR2"
-    }
 }

@@ -5,12 +5,12 @@ export class OneToManyRelationship<P extends DomainEntity, C extends DomainEntit
 
   toDelete: C;
 
-  constructor(parent: P, private children: C[], private path: string) {
-    super(parent);
+  constructor(parent: P, path: string, private children: C[]) {
+    super(parent, path);
   }
 
-  toBody(): string {
-    return this.children.map(c => c.location()).join('\n');
+  toBody(host: string): string {
+    return this.children.map(c => `${host}${c.location()}`).join('\n');
   }
 
   delete(child: C): OneToManyRelationship<P, C> {
@@ -19,7 +19,7 @@ export class OneToManyRelationship<P extends DomainEntity, C extends DomainEntit
   }
 
   deletePath(): string {
-    let base = super.parentLoc() + '/' + this.path;
+    let base = super.relPath();
     if(this.toDelete != null) {
       return base + '/' + this.toDelete.id;
     } else if(this.children.length === 1) {

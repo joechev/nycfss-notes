@@ -6,7 +6,6 @@ import lombok.EqualsAndHashCode;
 
 import javax.persistence.*;
 import java.io.Serializable;
-import java.util.UUID;
 
 @Entity
 @Table(name = "refNotes")
@@ -18,7 +17,7 @@ public class RefNote {
     @Data
     static class RefNoteId implements Serializable {
         private Long refDataId;
-        private UUID noteId;
+        private String noteId;
     }
 
     @EmbeddedId

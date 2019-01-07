@@ -17,7 +17,7 @@ import {StaffDialogComponent} from "../dialog/staff-dialog.component";
 })
 export class StaffComponent implements OnInit {
 
-    displayedColumns: string[] = ['firstName', 'middleName', 'lastName'];
+    displayedColumns: string[] = ['pictureUrl', 'firstName', 'lastName', 'email'];
     dataSource: EntityDataSource<Staff, StaffService>;
 
     constructor(private service: StaffService, private dialog: MatDialog) {}

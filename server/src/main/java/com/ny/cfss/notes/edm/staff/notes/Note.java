@@ -3,7 +3,6 @@ package com.ny.cfss.notes.edm.staff.notes;
 import com.ny.cfss.notes.edm.AbstractDomainEntity;
 import com.ny.cfss.notes.edm.individual.Individual;
 import com.ny.cfss.notes.edm.individual.goal.Goal;
-import com.ny.cfss.notes.edm.programs.Program;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -26,10 +25,6 @@ public class Note extends AbstractDomainEntity {
     @ManyToOne
     @JoinColumn(name = "individualId")
     private Individual individual;
-
-    @ManyToOne
-    @JoinColumn(name = "programId")
-    private Program program;
 
     @ManyToMany
     @JoinTable(name = "targetedGoals")

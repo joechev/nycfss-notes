@@ -2,13 +2,13 @@ import {DomainEntity} from "./domain-entity";
 
 export abstract class EntityRelationship<P extends DomainEntity, C extends DomainEntity> {
 
-  protected constructor(private parent: P) {}
+  protected constructor(private parent: P, private rel: string) {}
 
-  abstract toBody(): string;
+  abstract toBody(host: string): string;
   abstract deletePath(): string;
 
-  parentLoc(): string {
-    return this.parent.location();
+  relPath(): string {
+    return `${this.parent.location()}/${this.rel}`;
   }
 
 }

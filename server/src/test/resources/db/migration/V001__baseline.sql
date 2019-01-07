@@ -5,8 +5,8 @@ CREATE TABLE staff (
     firstName VARCHAR(16) NOT NULL,
     middleName VARCHAR(16),
     lastName VARCHAR(16) NOT NULL,
-    creTimest DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
-    modTimest DATETIME(3),
+    creTimest DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
+    modTimest DATETIME,
     active BIT(1) NOT NULL DEFAULT 1,
     KEY (firstName) USING BTREE,
     KEY (lastName) USING BTREE
@@ -18,8 +18,8 @@ CREATE TABLE individuals (
     firstName VARCHAR(16) NOT NULL,
     middleName VARCHAR(16),
     lastName VARCHAR(16) NOT NULL,
-    creTimest DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
-    modTimest DATETIME(3),
+    creTimest DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
+    modTimest DATETIME,
     active BIT(1) NOT NULL DEFAULT 1,
     KEY (firstName) USING BTREE,
     KEY (lastName) USING BTREE
@@ -30,8 +30,8 @@ CREATE TABLE goals (
     id CHAR(36) NOT NULL PRIMARY KEY,
     individualId CHAR(36) NOT NULL,
     description MEDIUMTEXT,
-    creTimest DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
-    modTimest DATETIME(3),
+    creTimest DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
+    modTimest DATETIME,
     active BIT(1) NOT NULL DEFAULT 1,
     FOREIGN KEY (individualId) REFERENCES individuals (id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -42,8 +42,8 @@ CREATE TABLE programs (
     staffId CHAR(36) NOT NULL,
     longName VARCHAR(64) NOT NULL UNIQUE,
     shortName VARCHAR(16) NOT NULL UNIQUE,
-    creTimest DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
-    modTimest DATETIME(3),
+    creTimest DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
+    modTimest DATETIME,
     active BIT(1) NOT NULL DEFAULT 1,
     FOREIGN KEY (staffId) REFERENCES staff (id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -55,8 +55,8 @@ CREATE TABLE enrollments (
     individualId CHAR(36) NOT NULL,
     startDate DATE NOT NULL,
     endDate DATE,
-    creTimest DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
-    modTimest DATETIME(3),
+    creTimest DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
+    modTimest DATETIME,
     active BIT(1) NOT NULL DEFAULT 1,
     FOREIGN KEY (programId) REFERENCES programs (id),
     FOREIGN KEY (individualId) REFERENCES individuals (id)
@@ -78,8 +78,8 @@ CREATE TABLE weeklySummaries (
     programId CHAR(36) NOT NULL,
     weekOf DATE NOT NULL,
     description MEDIUMTEXT,
-    creTimest DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
-    modTimest DATETIME(3),
+    creTimest DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
+    modTimest DATETIME,
     active BIT(1) NOT NULL DEFAULT 1,
     FOREIGN KEY (staffId) REFERENCES staff (id),
     FOREIGN KEY (programId) REFERENCES programs (id),
@@ -94,8 +94,8 @@ CREATE TABLE notes (
     serviceDate DATE NOT NULL,
     startTime TIME NOT NULL,
     endTime TIME NOT NULL,
-    creTimest DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
-    modTimest DATETIME(3),
+    creTimest DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
+    modTimest DATETIME,
     active BIT(1) NOT NULL DEFAULT 1,
     FOREIGN KEY (individualId) REFERENCES individuals (id),
     FOREIGN KEY (summaryId) REFERENCES weeklySummaries (id)

@@ -1,6 +1,7 @@
 # Spring Boot configuration
 spring:
   jpa:
+    show-sql: true
     database-platform: org.hibernate.dialect.MySQL57InnoDBDialect
     hibernate:
       naming-strategy: org.hibernate.cfg.EJB3NamingStrategy
@@ -8,8 +9,9 @@ spring:
       naming:
         implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-  profiles:
-    active: google
+    properties:
+      hibernate:
+        format_sql: true
   data:
     rest:
       basePath: /api
@@ -41,4 +43,10 @@ server:
 
 logging:
   level:
-    org.springframework.security: DEBUG
+    org:
+      hibernate:
+        SQL: DEBUG
+        type.descriptor.sql.BasicBinder: trace
+      springframework:
+        security: trace
+        web: trace
