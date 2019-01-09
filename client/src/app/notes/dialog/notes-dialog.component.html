@@ -1,26 +1,41 @@
-<div class="time-container">
-    <h1 mat-dialog-title>Add Note Entry</h1>
-    <mat-dialog-content>
-        <mat-form-field [floatLabel]="auto">
-            <input matInput [matDatepicker]="serviceDatePicker" placeholder="Service Date" required
-                   [value]="date.value">
-            <mat-datepicker-toggle matSuffix [for]="serviceDatePicker"></mat-datepicker-toggle>
-            <mat-datepicker #serviceDatePicker></mat-datepicker>
-        </mat-form-field>
-        <div class="time-wrapper">
-            <label class="time-input-wrapper">Start Time
-                <input placeholder="Start Time:"
-                       value="startTime.value"
-                       [owlDateTimeTrigger]="startTime" [owlDateTime]="startTime">
-                <owl-date-time [pickerType]="'timer'" #startTime></owl-date-time>
-            </label>
+<h1 mat-dialog-title>Add Note Entry</h1>
+<mat-dialog-content>
+    <div class="row">
+        <div class="col">
+            <mat-form-field [floatLabel]="auto">
+                <input matInput [matDatepicker]="serviceDatePicker" placeholder="Service Date" required
+                       [value]="date.value">
+                <mat-datepicker-toggle matSuffix [for]="serviceDatePicker"></mat-datepicker-toggle>
+                <mat-datepicker #serviceDatePicker></mat-datepicker>
+            </mat-form-field>
         </div>
-
-    </mat-dialog-content>
-    <div class="button-row">
-        <mat-dialog-actions align="end">
-            <button mat-flat-button mat-dialog-close>Cancel</button>
-            <button mat-raised-button color="primary" [mat-dialog-close]="true" cdkFocusInitial>Save</button>
-        </mat-dialog-actions>
+        <div class="col">
+            <mat-form-field [floatLabel]="auto">
+                <input class="padded" matInput type="time" placeholder="Start Time" required>
+            </mat-form-field>
+        </div>
+        <div class="col">
+            <mat-form-field [floatLabel]="auto">
+                <input matInput type="time" placeholder="End Time" required>
+            </mat-form-field>
+        </div>
     </div>
+    <mat-divider></mat-divider>
+    <div class="row">
+        <div class="col">
+            <mat-form-field [floatLabel]="auto">
+                <mat-select [(value)]="individual">
+                    <mat-option *ngFor="let ind of individuals" value="{{ind.id}}">{{ind.</mat-option>
+                    <mat-option value="option2">Option 2</mat-option>
+                    <mat-option value="option3">Option 3</mat-option>
+                </mat-select>
+            </mat-form-field>
+        </div>
+    </div>
+</mat-dialog-content>
+<div class="button-row">
+    <mat-dialog-actions align="end">
+        <button mat-flat-button mat-dialog-close>Cancel</button>
+        <button mat-raised-button color="primary" [mat-dialog-close]="true" cdkFocusInitial>Save</button>
+    </mat-dialog-actions>
 </div>
