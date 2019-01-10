@@ -50,3 +50,9 @@ Thumbs.db
 
 .idea/
 server/src/main/resources/static
+.gradle/
+.idea/
+**/*.iml
+*.iml
+.gradle/**
+.idea/**
