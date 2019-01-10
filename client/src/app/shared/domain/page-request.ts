@@ -4,6 +4,8 @@ import {MatPaginator, Sort} from "@angular/material";
 export class PageRequest {
 
   projection: string;
+  query: string;
+  queryParams: Object;
 
   constructor(
     private resource: string,
@@ -12,7 +14,10 @@ export class PageRequest {
     private sort: string) {}
 
   getUrl(): string {
-    return `/api/${this.resource}`.toString();
+    if(this.query != null) {
+        return `/api/${this.resource}/search/${this.query}`;
+    }
+    return `/api/${this.resource}`;
   }
 
   toHttpParams(): HttpParams {
@@ -23,11 +28,21 @@ export class PageRequest {
       if(this.projection != null) {
           toRet = toRet.set('projection', this.projection);
       }
+      if(this.query != null) {
+          Object.keys(this.queryParams)
+              .forEach(key => toRet.set(key, this.queryParams[key]));
+      }
       return toRet;
   }
 
   withProjection(projection: string): PageRequest {
       this.projection = projection;
+      return this;
+  }
+
+  withQuery(query: string, queryParams?: Object): PageRequest {
+      this.query = query;
+      this.queryParams = queryParams;
       return this;
   }
 
@@ -62,6 +77,13 @@ export class PageRequest {
 
   static default(resource: string): PageRequest {
     return new PageRequest(resource, '0', '25', 'id,asc');
+  }
+
+  static findAll(resource: string, sort?: string): PageRequest {
+      if(!sort) {
+          sort = 'id,asc'
+      }
+      return new PageRequest(resource, '0', '1000', sort);
   }
 
 }

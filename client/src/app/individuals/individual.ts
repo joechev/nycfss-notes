@@ -10,4 +10,8 @@ export class Individual extends DomainEntity {
     return "individuals";
   }
 
+  lastNameFirst(): string {
+      return `${this.lastName}, ${this.firstName}`;
+  }
+
 }

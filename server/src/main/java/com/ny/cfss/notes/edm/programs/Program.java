@@ -5,9 +5,10 @@ import com.ny.cfss.notes.edm.staff.Staff;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
-import javax.persistence.*;
-import java.util.HashSet;
-import java.util.Set;
+import javax.persistence.Entity;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
 
 @Entity
 @Table(name = "programs")
@@ -22,8 +23,5 @@ public class Program extends AbstractDomainEntity {
     private String longName;
     private String shortName;
     private Integer minsPerUnit;
-
-    @OneToMany(mappedBy = "program")
-    private Set<Enrollment> enrollments = new HashSet<>();
 
 }

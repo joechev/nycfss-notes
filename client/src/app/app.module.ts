@@ -21,7 +21,6 @@ import { NotesDialogComponent } from './notes/dialog/notes-dialog.component';
 import {StaffComponent} from "./staff/component/staff.component";
 import {StaffDialogComponent} from "./staff/dialog/staff-dialog.component";
 import {WINDOW_PROVIDERS} from "./shared/window-providers";
-import { OwlDateTimeModule, OwlNativeDateTimeModule } from 'ng-pick-datetime';
 
 @NgModule({
   declarations: [
@@ -53,8 +52,6 @@ import { OwlDateTimeModule, OwlNativeDateTimeModule } from 'ng-pick-datetime';
     MatSortModule,
     MatTableModule,
     MatTabsModule,
-    OwlDateTimeModule,
-    OwlNativeDateTimeModule,
     BrowserAnimationsModule
   ],
   providers: [WINDOW_PROVIDERS],

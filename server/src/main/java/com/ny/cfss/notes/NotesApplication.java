@@ -2,6 +2,8 @@ package com.ny.cfss.notes;
 
 import com.ny.cfss.notes.edm.individual.Individual;
 import com.ny.cfss.notes.edm.individual.goal.Goal;
+import com.ny.cfss.notes.edm.programs.Enrollment;
+import com.ny.cfss.notes.edm.programs.Program;
 import com.ny.cfss.notes.edm.refdata.RefData;
 import com.ny.cfss.notes.edm.staff.Staff;
 import com.ny.cfss.notes.edm.staff.notes.Note;
@@ -36,7 +38,8 @@ public class NotesApplication {
             config.exposeIdsFor(
                     Individual.class, RefData.class,
                     Staff.class, Note.class, Goal.class,
-                    WeeklySummary.class
+                    WeeklySummary.class, Program.class,
+                    Enrollment.class
             );
         }
 
